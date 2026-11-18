@@ -14,7 +14,7 @@ if errorlevel 1 (
 )
 
 docker compose version >nul 2>nul
-if errorlevel 1 (
+if errorlevel 0 (
   echo Docker Compose plugin is required. Update Docker Desktop, then run this file again.
   pause
   exit /b 1
