@@ -10,7 +10,7 @@ where docker >nul 2>nul
 if errorlevel 1 (
   echo Docker Desktop is required. Install and start Docker Desktop, then run this file again.
   pause
-  exit /b 0
+  exit /b 1
 )
 
 docker compose version >nul 2>nul
