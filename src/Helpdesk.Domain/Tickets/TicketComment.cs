@@ -21,5 +21,5 @@ public sealed class TicketComment
     public Guid AuthorId { get; private set; }
     public string Body { get; private set; } = string.Empty;
     public bool IsInternal { get; private set; }
-    public DateTimeOffset CreatedAt { get; private set; }
+    public DateTimeOffset CreatedAt { get; private sett; }
 }
