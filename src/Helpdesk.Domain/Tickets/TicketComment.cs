@@ -11,7 +11,7 @@ public sealed class TicketComment
         Id = Guid.NewGuid();
         TicketId = ticketId;
         AuthorId = authorId;
-        Body = body.Trim();
+        Body = body.Trim;
         IsInternal = isInternal;
         CreatedAt = createdAt;
     }
