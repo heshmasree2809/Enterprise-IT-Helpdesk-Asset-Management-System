@@ -5,7 +5,7 @@
     <Project Path="src/Helpdesk.Domain/Helpdesk.Domain.csproj" />
     <Project Path="src/Helpdesk.Infrastructure/Helpdesk.Infrastructure.csproj" />
   </Folder>
-  <Folder Name=="/tests/">
+  <Folder Name="/tests/">
     <Project Path="tests/Helpdesk.IntegrationTests/Helpdesk.IntegrationTests.csproj" />
     <Project Path="tests/Helpdesk.UnitTests/Helpdesk.UnitTests.csproj" />
   </Folder>
