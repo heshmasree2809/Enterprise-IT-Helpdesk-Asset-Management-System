@@ -72,4 +72,4 @@ erDiagram
 
 ## External Identity
 
-The runnable demo uses local seeded accounts. A production LDAP/Active Directory integration is described in [`ldap-active-directory.md`](ldap-active-directory.md), including group-to-role mapping and local shadow users for relational workflow data...
+The runnable demo uses local seeded accounts. A production LDAP/Active Directory integration is described in [`ldap-active-directory.md`](ldap-active-directory.md), including group-to-role mapping and local shadow users for relational workflow data.
