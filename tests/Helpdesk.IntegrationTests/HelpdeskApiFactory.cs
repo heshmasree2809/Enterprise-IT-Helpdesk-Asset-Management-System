@@ -14,7 +14,7 @@ public sealed class HelpdeskApiFactory : WebApplicationFactory<Program>, IAsyncL
         .WithDatabase("helpdesk_tests")
         .WithUsername("helpdesk")
         .WithPassword("helpdesk")
-        .Build();;;
+        .Build();;
 
     public async Task InitializeAsync()
     {
