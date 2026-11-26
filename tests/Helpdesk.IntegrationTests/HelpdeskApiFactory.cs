@@ -6,7 +6,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.DependencyInjection.Extensions;
 using Testcontainers.PostgreSql;
 
-namespace Helpdesk.IntegrationTests;;
+namespace Helpdesk.IntegrationTests;
 
 public sealed class HelpdeskApiFactory : WebApplicationFactory<Program>, IAsyncLifetime
 {
